@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Polygon Xtrada 6",
+    "category": "MTB",
+    "price": 8500000,
+    "isNew": true,
+    "isBestSeller": true,
+    "promo": 10,
+    "image": "xtrada6.jpg"
+  },
+  {
+    "id": 2,
+    "name": "United Miami 4.0",
+    "category": "Hybrid",
+    "price": 4500000,
+    "isNew": false,
+    "isBestSeller": true,
+    "promo": 0,
+    "image": "miami4.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pacific Noris 3",
+    "category": "BMX",
+    "price": 3500000,
+    "isNew": true,
+    "isBestSeller": false,
+    "promo": 5,
+    "image": "noris3.jpg"
+  }
+]

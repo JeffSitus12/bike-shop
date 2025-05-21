@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🚴 Bike Shop</h1>
+    <nav>
+      <button onclick="filterProducts('all')">Semua</button>
+      <button onclick="filterProducts('new')">Produk Baru</button>
+      <button onclick="filterProducts('best')">Best Seller</button>
+      <button onclick="filterProducts('promo')">Promo</button>
+    </nav>
+  </header>
+
+  <main>
+    <div id="product-list" class="product-grid"></div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
